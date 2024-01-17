@@ -1,0 +1,24 @@
+.mode {
+    width: 30px;
+    height: 30px;
+    color: rgb(47, 155, 146);
+    border: 1px solid rgb(47, 155, 146);
+    border-radius: 5px;
+}
+.doc-img{
+    width:200px;
+}
+.myheading{
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.input-area{
+    height: 50px;
+}
+.myinput{
+    height: 50px;
+}
+.docform{
+    width: 50%;
+}
