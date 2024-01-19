@@ -1,0 +1,87 @@
+.btn-1{
+    background: rgba(194, 170, 252, 0.13);
+    border-color:  rgb(72, 13, 99);
+    color:  rgb(72, 13, 99);
+    font-weight:600;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    height: 50px;
+    width: 250px;
+}
+.btn-2{
+   
+    background:  rgba(128, 226, 250, 0.1);
+      border-color: rgb(37, 153, 182);
+    color: rgb(37, 153, 182);
+    font-weight:600;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    height: 50px;
+    width: 250px;
+}
+.btn-3{
+    background: rgba(108, 255, 108, 0.192);
+    border-color: rgb(14, 85, 7);
+    color:  rgb(14, 85, 7);
+    font-weight:600;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    height: 50px;
+    width: 250px;
+}
+.btn-4{
+    background: rgba(255, 132, 239, 0.199);
+    /* background-color: hwb(233 82% 0%); */
+    /* opacity: 0.4; */
+    border-color: rgb(120, 5, 114);
+    color:  rgb(120, 5, 114);
+    font-weight:600;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    height: 50px;
+    width: 250px;
+}
+
+.btn-1:hover{
+    background-color:  rgb(72, 13, 99) !important;
+}
+.btn-2:hover{
+    background-color: rgb(37, 153, 182) !important;
+}
+.btn-3:hover{
+    background-color: rgb(14, 85, 7) !important;
+}
+.btn-4:hover{
+    background-color: rgb(120, 5, 114) !important;
+}
+.btn-back{
+    top: 70px;
+    right: 25%;
+    margin-left: 120px;
+}
+.shadow
+{
+  box-shadow: 10px 0 5px -2px #888;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .btn-back{
+        top: 70px;
+        right: 10px;
+    }
+   }
+
+   @media only screen and (max-width: 425px) {
+    .btn-1, .btn-2, .btn-3, .btn-4{
+        width: 300px;
+        border-radius: 0px;
+        text-align: center;
+    }
+   }

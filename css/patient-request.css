@@ -1,0 +1,30 @@
+.new-patient{
+    width: 40vw;
+}
+.primary-box{
+    background-color: rgb(110, 202, 230);
+    height: 50px;
+}
+.seconadry-box{
+    background-color: rgb(23, 15, 110);
+    height: 50px;
+}
+.new-patient{
+    width:40vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .new-patient {
+        width: 85vw;
+        margin-bottom: 200px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .new-patient {
+        width: 85vw;
+    }
+    .doc-img{
+        width: 200px;
+        margin-top: 60PX;
+    }
+   }

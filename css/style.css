@@ -1,5 +1,9 @@
+.bg-grey{
+    background-color: #f7f3f3;
+}
+
 .text-theme{
-    color: rgb(30, 192, 184);
+    color: rgb(37, 153, 182);
 }
 
 a{
@@ -9,3 +13,57 @@ a{
 .text-2{
     color:rgb(37, 37, 37);
 }
+
+.myfill{
+    fill: rgb(37, 153, 182);
+}
+.mybtn{
+    background-color: rgb(37, 153, 182);
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: rgb(37, 153, 182);
+    background: transparent;
+    border-color: rgb(37, 153, 182);
+    outline: none;
+    box-shadow: none;
+  }
+.form-floating>.form-control:focus~label{
+    color: rgb(37, 153, 182);
+}
+  .form-floating>.form-control:focus~label::after{
+    background-color: transparent ;
+    color: red !important;
+  }
+
+
+.submit{
+    border: 1px solid rgb(37, 153, 182);;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+	background-color:rgb(37, 153, 182) ;
+}
+
+.cancel{ 
+    background-color: white;
+    border: 1px solid rgb(37, 153, 182);
+   color:rgb(37, 153, 182);
+   border-radius: 5px;
+}
+
+.btn-border-back{
+    border: 1px solid rgb(37, 153, 182);
+   
+}
+
+@media only screen and (max-width: 425px) {
+    .logo{
+        display: none;
+    }
+    .myform{
+        margin-top: 200px;
+    }
+   }

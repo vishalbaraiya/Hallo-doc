@@ -1,0 +1,49 @@
+input#phone {
+    height: 100%;
+}
+input#f-phone {
+    height: 100%;
+}
+input#c-phone {
+    height: 100%;
+}
+.iti.iti--allow-dropdown {
+    height: 100%;
+    width: 100%;
+}
+
+.myupload-lable{
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+	background-color:rgb(37, 153, 182) ;
+}
+
+/* .patient-request-form{
+    height: 50px;
+} */
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+ .myheading{
+    font-size: 15px;
+ }
+ .iti.iti--allow-dropdown {
+    height: 60px;
+    
+}
+ label{
+    font-size: 13px;
+    color: rgb(59, 58, 58);
+ }
+   }
+
+   @media only screen and (max-width: 575px) {
+    .iti.iti--allow-dropdown {
+       height: 60px;
+       
+   }
+}
